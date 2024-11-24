@@ -11,19 +11,19 @@ export default function Header() {
       <nav className="hidden md:block">
         <ul className="flex text-white">
           <li>
-            <a  href="#">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li>
-            <a  href="#about">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a  href="#projects">Project</a>
+            <a href="#projects">Project</a>
           </li>
           <li>
-            <a  href="#resume">Resume</a>
+            <a href="#resume">Resume</a>
           </li>
           <li>
-            <a  href="#contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
