@@ -5,9 +5,14 @@ export default function Header() {
   const [togglemenu, settogglemenu] = useState();
   return (
     <header className="flex justify-between px-5 bg-primary py-2">
-      <a href="" className="text-black font-bold">
+      <a
+        href="#"
+        className="text-black font-bold"
+        onClick={(e) => e.preventDefault()}
+      >
         KATHIRESAN L
       </a>
+
       <nav className="hidden md:block">
         <ul className="flex text-white">
           <li>

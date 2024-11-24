@@ -12,7 +12,7 @@ export default function About() {
       className="flex flex-col md:flex-row px-5 bg-secondary "
     >
       <div className="md:w-1/2 py-5">
-        <img src={AboutImg} alt="About Me Image is there" />
+        <img src={AboutImg} alt="" />
       </div>
       <div className="md:w-1/2 flex justify-center">
         <div className="flex flex-col justify-center text-white ">
